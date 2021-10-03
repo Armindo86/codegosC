@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+main(){
+	setlocale(LC_ALL, "portuguese");
+	int numero[5], i;
+	
+	for(i = 0; i < 5; i++){
+		cout<<"Digite o "<<i + 1<<"º numero: ";
+		cin>>numero[i];
+	}
+	for(i = 0; i < 5; i++){
+		cout<<"numero["<<i<<"]: "numero[i]<<endl;
+	}
+}
